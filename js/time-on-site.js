@@ -4,6 +4,8 @@
        * Dependancies: jQuery / HTML5
        * DEMO: https://jsfiddle.net/Webby2014/ugug1vj1/
        */
+
+
 ;(function ($) {
 
           // Logic: seconds * minutes * hours * days * months (answer: 31,536,000);
@@ -20,6 +22,7 @@
 
               if (profit < 1 || isNaN(profit)) return;
 
+              // most recent update added for handling varying interval settings:
               increment = (profit / SECONDS_IN_A_YEAR * (interval / 1000));
               currentIncrement = 0;
               seconds = 0;
@@ -70,4 +73,4 @@
               }
           });
 
-      })(jQuery);
+})(jQuery);
