@@ -1,9 +1,9 @@
-      /**
-       * Name: jQuery Counter Function
-       * Creator: Matthew D Webb
-       * Dependancies: jQuery / HTML5
-       * DEMO: https://jsfiddle.net/Webby2014/ugug1vj1/
-       */
+/**
+  * Name: jQuery Counter Function
+  * Creator: Matthew D Webb
+  * Dependancies: jQuery / HTML5
+  * DEMO: https://jsfiddle.net/Webby2014/ugug1vj1/
+*/
 
 
 ;(function ($) {
