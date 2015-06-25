@@ -7,7 +7,7 @@
 
         // initialise the time to track total time on site:
         setInterval(function () {
-            TIME_ON_SITE++;
+            TIME_ON_SITE += 1;
         }, 1000);
 
         $('#myCosts,#theirCosts,#myEarnings,#theirEarnings').hide();
@@ -256,19 +256,19 @@
             var hourStr = " hour ";
             var minStr = " min ";
 
-            if (years != 1 ) {
+            if (years !== 1) {
                 yearStr = " years ";
             }
 
-            if (days != 1) {
+            if (days !== 1) {
                 dayStr = " days ";
             }
 
-            if (hours != 1) {
+            if (hours !== 1) {
                 hourStr = " hours ";
             }
 
-            if (mins != 1) {
+            if (mins !== 1) {
                 minStr = " mins ";
             }
 
@@ -289,4 +289,4 @@
 
     });
 
-})(jQuery);
+}(jQuery));
